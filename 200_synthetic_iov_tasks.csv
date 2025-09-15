@@ -1,0 +1,201 @@
+task_id,task_type,criticality,data_size_kb,deadline_ms,vehicle_speed_kmph,current_location,network_condition,edge_node_distance_km,computation_intensity_flops,cost_weight_preference,time_of_day,mobility_pattern,rule_based_alpha,context_text
+1,Navigation,Medium,1743,800,83,Rural,Poor,1.7,3449410466,Latency-Oriented,Peak,High-Mobility,0.18,Route recalculation needed due to road closure ahead. Vehicle speed: 83 km/h.
+2,V2X Communication,Medium,1732,500,87,Rural,Excellent,8.43,4236019167,Balanced,Off-Peak,High-Mobility,0.55,Vehicle-to-infrastructure alert for intersection in Rural area. Network: Excellent.
+3,Diagnostics,Medium,4802,800,68,Highway,Poor,8.48,5863297086,Cost-Sensitive,Peak,Stable,0.98,Predictive maintenance for battery while vehicle moves at 68 km/h. Network condition: Poor.
+4,V2X Communication,Low,169,100,33,Rural,Excellent,9.56,540275932,Latency-Oriented,Peak,Stable,0.94,Vehicle-to-pedestrian alert for hazard in Rural area. Network: Excellent.
+5,V2X Communication,Low,880,300,5,Urban,Good,1.63,8420332995,Cost-Sensitive,Off-Peak,Stable,0.04,Vehicle-to-pedestrian alert for hazard in Urban area. Network: Good.
+6,Infotainment,High,3725,500,52,Urban,Congested,6.27,2600403081,Cost-Sensitive,Off-Peak,Stable,0.16,Video playback requested while vehicle is moving in urban area. User is cost-sensitive.
+7,Diagnostics,High,1419,500,65,Highway,Excellent,4.79,5880523712,Balanced,Peak,Stable,0.13,Predictive maintenance for battery while vehicle moves at 65 km/h. Network condition: Excellent.
+8,Diagnostics,Low,790,500,76,Highway,Poor,3.51,7061779161,Balanced,Off-Peak,Stable,0.73,Predictive maintenance for brakes while vehicle moves at 76 km/h. Network condition: Poor.
+9,Diagnostics,Medium,166,1000,106,Highway,Good,3.58,8138189361,Balanced,Off-Peak,Stable,0.82,Predictive maintenance for brakes while vehicle moves at 106 km/h. Network condition: Good.
+10,V2X Communication,High,2888,500,42,Rural,Excellent,4.19,8576070591,Balanced,Off-Peak,Stable,0.21,Vehicle-to-pedestrian alert for hazard in Rural area. Network: Excellent.
+11,Navigation,Low,1200,800,111,Urban,Fair,7.08,9248650722,Latency-Oriented,Peak,Stable,0.51,Route recalculation needed due to road closure ahead. Vehicle speed: 111 km/h.
+12,Diagnostics,Low,1981,500,74,Urban,Congested,6.02,195019914,Latency-Oriented,Peak,High-Mobility,0.84,Predictive maintenance for brakes while vehicle moves at 74 km/h. Network condition: Congested.
+13,V2X Communication,Low,1062,200,114,Rural,Excellent,4.65,1489895301,Balanced,Off-Peak,High-Mobility,0.73,Vehicle-to-infrastructure alert for intersection in Rural area. Network: Excellent.
+14,Infotainment,Medium,1714,300,110,Urban,Good,0.85,5570184877,Latency-Oriented,Off-Peak,High-Mobility,0.54,Music streaming requested while vehicle is moving in urban area. User is latency-oriented.
+15,Navigation,Low,1131,500,22,Highway,Fair,0.87,8677584412,Balanced,Off-Peak,Stable,0.59,Route recalculation needed due to traffic jam ahead. Vehicle speed: 22 km/h.
+16,Infotainment,Low,4779,300,54,Highway,Good,0.12,802758950,Cost-Sensitive,Peak,High-Mobility,0.51,Video playback requested while vehicle is moving in highway area. User is cost-sensitive.
+17,Navigation,Low,562,200,79,Highway,Good,9.68,3079342492,Cost-Sensitive,Peak,Stable,0.3,Route recalculation needed due to accident ahead. Vehicle speed: 79 km/h.
+18,V2X Communication,Low,2899,200,94,Urban,Fair,0.15,9638132851,Cost-Sensitive,Off-Peak,Stable,0.57,Vehicle-to-vehicle alert for intersection in Urban area. Network: Fair.
+19,Safety,High,609,300,74,Highway,Good,1.12,9863575322,Balanced,Off-Peak,High-Mobility,0.69,Emergency lane change needed at 74 km/h in highway area during off-peak time. Network: good.
+20,Navigation,High,3722,50,117,Rural,Fair,3.21,5043756011,Cost-Sensitive,Off-Peak,Stable,0.87,Route recalculation needed due to traffic jam ahead. Vehicle speed: 117 km/h.
+21,Infotainment,Low,4633,100,15,Rural,Excellent,8.09,4152799508,Latency-Oriented,Off-Peak,High-Mobility,0.64,Video playback requested while vehicle is moving in rural area. User is latency-oriented.
+22,V2X Communication,Medium,3393,1000,7,Urban,Fair,9.62,2842448058,Cost-Sensitive,Off-Peak,High-Mobility,0.76,Vehicle-to-pedestrian alert for hazard in Urban area. Network: Fair.
+23,Navigation,High,4120,50,3,Rural,Fair,7.92,9867679928,Cost-Sensitive,Off-Peak,High-Mobility,0.16,Route recalculation needed due to accident ahead. Vehicle speed: 3 km/h.
+24,Safety,Low,4849,50,103,Rural,Congested,6.94,4326151810,Cost-Sensitive,Peak,Stable,0.46,Emergency collision avoidance needed at 103 km/h in rural area during peak time. Network: congested.
+25,Safety,High,1520,800,3,Urban,Fair,5.26,8235094139,Latency-Oriented,Off-Peak,High-Mobility,0.01,Emergency lane change needed at 3 km/h in urban area during off-peak time. Network: fair.
+26,Diagnostics,High,630,1000,55,Highway,Fair,0.96,5382614798,Balanced,Peak,Stable,0.25,Predictive maintenance for battery while vehicle moves at 55 km/h. Network condition: Fair.
+27,Diagnostics,Medium,2344,1000,24,Highway,Excellent,9.59,5310245052,Latency-Oriented,Off-Peak,High-Mobility,0.73,Predictive maintenance for battery while vehicle moves at 24 km/h. Network condition: Excellent.
+28,Infotainment,Low,3197,50,66,Highway,Congested,7.61,8823654463,Balanced,Off-Peak,High-Mobility,0.99,Music streaming requested while vehicle is moving in highway area. User is balanced.
+29,Navigation,Low,4299,500,95,Urban,Poor,6.43,2898887704,Balanced,Peak,High-Mobility,0.1,Route recalculation needed due to road closure ahead. Vehicle speed: 95 km/h.
+30,Navigation,Medium,1729,800,66,Rural,Excellent,7.61,8107357710,Cost-Sensitive,Peak,Stable,0.4,Route recalculation needed due to accident ahead. Vehicle speed: 66 km/h.
+31,Diagnostics,Medium,3556,800,26,Highway,Excellent,7.27,3830708112,Balanced,Peak,Stable,0.8,Predictive maintenance for battery while vehicle moves at 26 km/h. Network condition: Excellent.
+32,Navigation,Low,2794,200,92,Highway,Poor,6.41,3435458100,Latency-Oriented,Peak,Stable,0.2,Route recalculation needed due to road closure ahead. Vehicle speed: 92 km/h.
+33,Navigation,Low,3406,1000,31,Urban,Fair,9.81,7663540467,Latency-Oriented,Off-Peak,High-Mobility,0.56,Route recalculation needed due to traffic jam ahead. Vehicle speed: 31 km/h.
+34,Safety,Medium,4095,50,49,Highway,Good,9.04,663692479,Balanced,Peak,High-Mobility,0.73,Emergency collision avoidance needed at 49 km/h in highway area during peak time. Network: good.
+35,Diagnostics,High,1293,200,60,Urban,Congested,6.5,7043460226,Cost-Sensitive,Off-Peak,Stable,0.62,Predictive maintenance for battery while vehicle moves at 60 km/h. Network condition: Congested.
+36,V2X Communication,High,3168,300,50,Rural,Good,6.96,4898802125,Cost-Sensitive,Peak,Stable,0.19,Vehicle-to-infrastructure alert for hazard in Rural area. Network: Good.
+37,Diagnostics,Medium,2191,100,18,Urban,Poor,0.61,9227603472,Latency-Oriented,Off-Peak,Stable,0.36,Predictive maintenance for engine while vehicle moves at 18 km/h. Network condition: Poor.
+38,V2X Communication,High,3109,800,20,Urban,Excellent,6.73,7339447787,Cost-Sensitive,Off-Peak,Stable,0.78,Vehicle-to-vehicle alert for intersection in Urban area. Network: Excellent.
+39,Safety,Medium,4598,300,4,Urban,Excellent,0.54,961247141,Balanced,Off-Peak,Stable,0.55,Emergency braking needed at 4 km/h in urban area during off-peak time. Network: excellent.
+40,Infotainment,High,3009,300,81,Urban,Congested,5.92,6894515445,Balanced,Off-Peak,Stable,0.01,Social media update requested while vehicle is moving in urban area. User is balanced.
+41,Navigation,High,2315,500,91,Rural,Excellent,9.99,1255317876,Latency-Oriented,Off-Peak,High-Mobility,0.76,Route recalculation needed due to road closure ahead. Vehicle speed: 91 km/h.
+42,Safety,Low,2529,100,41,Rural,Excellent,5.6,7820457559,Balanced,Off-Peak,Stable,0.04,Emergency lane change needed at 41 km/h in rural area during off-peak time. Network: excellent.
+43,Navigation,Low,4696,300,60,Highway,Congested,4.78,149909831,Latency-Oriented,Peak,High-Mobility,0.75,Route recalculation needed due to accident ahead. Vehicle speed: 60 km/h.
+44,Infotainment,High,1685,300,21,Rural,Congested,3.2,411157009,Balanced,Off-Peak,High-Mobility,0.2,Video playback requested while vehicle is moving in rural area. User is balanced.
+45,Infotainment,High,1807,100,20,Rural,Poor,1.29,6080714303,Latency-Oriented,Peak,Stable,0.96,Video playback requested while vehicle is moving in rural area. User is latency-oriented.
+46,Safety,Low,4502,100,69,Highway,Excellent,7.34,6456288877,Cost-Sensitive,Peak,Stable,0.37,Emergency lane change needed at 69 km/h in highway area during peak time. Network: excellent.
+47,Infotainment,Low,2120,300,0,Rural,Excellent,2.01,5647648543,Balanced,Off-Peak,High-Mobility,0.33,Social media update requested while vehicle is stationary in rural area. User is balanced.
+48,V2X Communication,Low,2899,100,4,Urban,Poor,1.24,3794197536,Balanced,Peak,Stable,0.15,Vehicle-to-pedestrian alert for hazard in Urban area. Network: Poor.
+49,Infotainment,Medium,3301,300,104,Urban,Fair,4.28,270161543,Latency-Oriented,Off-Peak,Stable,0.31,Social media update requested while vehicle is moving in urban area. User is latency-oriented.
+50,Navigation,High,3780,300,11,Highway,Fair,7.97,9140606295,Latency-Oriented,Peak,High-Mobility,0.88,Route recalculation needed due to road closure ahead. Vehicle speed: 11 km/h.
+51,Navigation,Low,2539,500,89,Highway,Fair,7.48,1139575440,Balanced,Off-Peak,High-Mobility,1.0,Route recalculation needed due to accident ahead. Vehicle speed: 89 km/h.
+52,Navigation,High,1681,50,45,Highway,Poor,0.64,5006981023,Latency-Oriented,Peak,High-Mobility,0.37,Route recalculation needed due to road closure ahead. Vehicle speed: 45 km/h.
+53,Navigation,Medium,2866,300,33,Urban,Excellent,4.61,7049925973,Balanced,Off-Peak,Stable,0.45,Route recalculation needed due to accident ahead. Vehicle speed: 33 km/h.
+54,V2X Communication,Medium,1065,200,48,Rural,Poor,5.27,2503672777,Cost-Sensitive,Off-Peak,High-Mobility,0.72,Vehicle-to-vehicle alert for hazard in Rural area. Network: Poor.
+55,Diagnostics,Low,1398,800,77,Urban,Poor,6.48,5797107963,Latency-Oriented,Off-Peak,Stable,0.89,Predictive maintenance for battery while vehicle moves at 77 km/h. Network condition: Poor.
+56,Safety,Medium,4661,1000,89,Highway,Fair,6.54,2323554561,Balanced,Off-Peak,High-Mobility,0.59,Emergency braking needed at 89 km/h in highway area during off-peak time. Network: fair.
+57,Navigation,High,3137,50,44,Rural,Good,3.71,477383712,Cost-Sensitive,Peak,High-Mobility,0.39,Route recalculation needed due to road closure ahead. Vehicle speed: 44 km/h.
+58,Infotainment,Low,2889,50,26,Rural,Excellent,5.65,1605931212,Cost-Sensitive,Off-Peak,High-Mobility,0.41,Music streaming requested while vehicle is moving in rural area. User is cost-sensitive.
+59,Navigation,High,385,50,72,Urban,Fair,4.86,4537573536,Balanced,Peak,Stable,0.7,Route recalculation needed due to accident ahead. Vehicle speed: 72 km/h.
+60,Infotainment,High,4642,500,25,Highway,Good,8.86,437492083,Latency-Oriented,Peak,Stable,0.0,Video playback requested while vehicle is moving in highway area. User is latency-oriented.
+61,Infotainment,Medium,945,300,46,Urban,Good,5.35,6099739797,Balanced,Peak,High-Mobility,0.62,Video playback requested while vehicle is moving in urban area. User is balanced.
+62,Navigation,Medium,3596,500,85,Rural,Congested,4.47,9259944385,Cost-Sensitive,Off-Peak,High-Mobility,0.36,Route recalculation needed due to accident ahead. Vehicle speed: 85 km/h.
+63,V2X Communication,Medium,901,300,110,Urban,Excellent,4.1,6832536678,Balanced,Peak,High-Mobility,0.79,Vehicle-to-pedestrian alert for hazard in Urban area. Network: Excellent.
+64,Infotainment,Medium,1737,500,55,Urban,Good,5.77,7356196781,Latency-Oriented,Peak,Stable,0.09,Social media update requested while vehicle is moving in urban area. User is latency-oriented.
+65,Infotainment,Medium,1981,500,93,Highway,Fair,8.06,7833460977,Cost-Sensitive,Peak,High-Mobility,0.59,Video playback requested while vehicle is moving in highway area. User is cost-sensitive.
+66,Navigation,Low,3796,800,106,Highway,Congested,5.43,9549573345,Balanced,Off-Peak,Stable,0.48,Route recalculation needed due to road closure ahead. Vehicle speed: 106 km/h.
+67,Infotainment,High,2477,200,62,Rural,Excellent,6.65,5114299510,Latency-Oriented,Off-Peak,High-Mobility,0.64,Music streaming requested while vehicle is moving in rural area. User is latency-oriented.
+68,Infotainment,High,1618,500,47,Urban,Poor,7.4,3134290114,Cost-Sensitive,Peak,High-Mobility,0.06,Social media update requested while vehicle is moving in urban area. User is cost-sensitive.
+69,Navigation,High,4050,800,60,Urban,Fair,5.25,8825596037,Latency-Oriented,Off-Peak,High-Mobility,0.58,Route recalculation needed due to traffic jam ahead. Vehicle speed: 60 km/h.
+70,Navigation,High,2788,100,80,Urban,Good,4.33,4121000965,Cost-Sensitive,Off-Peak,High-Mobility,0.56,Route recalculation needed due to road closure ahead. Vehicle speed: 80 km/h.
+71,Safety,Medium,3548,200,25,Rural,Good,8.78,323214950,Balanced,Peak,High-Mobility,0.56,Emergency braking needed at 25 km/h in rural area during peak time. Network: good.
+72,V2X Communication,High,3963,500,35,Rural,Fair,4.23,3145391729,Latency-Oriented,Peak,High-Mobility,0.6,Vehicle-to-vehicle alert for speed limit in Rural area. Network: Fair.
+73,V2X Communication,Low,1116,1000,0,Highway,Good,4.67,9034025222,Cost-Sensitive,Off-Peak,Stable,0.68,Vehicle-to-vehicle alert for speed limit in Highway area. Network: Good.
+74,Infotainment,Low,4430,50,7,Highway,Congested,9.9,7905234489,Latency-Oriented,Peak,High-Mobility,0.8,Video playback requested while vehicle is moving in highway area. User is latency-oriented.
+75,V2X Communication,High,2494,100,112,Highway,Excellent,0.1,6337659545,Latency-Oriented,Off-Peak,Stable,0.27,Vehicle-to-infrastructure alert for intersection in Highway area. Network: Excellent.
+76,Infotainment,High,4157,100,98,Urban,Congested,1.94,4745565386,Balanced,Off-Peak,High-Mobility,0.83,Social media update requested while vehicle is moving in urban area. User is balanced.
+77,Safety,Low,3423,800,51,Urban,Good,3.9,4654177525,Latency-Oriented,Off-Peak,High-Mobility,0.5,Emergency collision avoidance needed at 51 km/h in urban area during off-peak time. Network: good.
+78,Navigation,Low,4019,100,78,Highway,Poor,9.33,3844281900,Cost-Sensitive,Off-Peak,Stable,0.08,Route recalculation needed due to road closure ahead. Vehicle speed: 78 km/h.
+79,Navigation,Medium,2596,200,46,Urban,Excellent,0.79,9631451513,Cost-Sensitive,Off-Peak,High-Mobility,0.06,Route recalculation needed due to traffic jam ahead. Vehicle speed: 46 km/h.
+80,Navigation,Low,803,500,55,Highway,Excellent,0.19,5841923683,Cost-Sensitive,Off-Peak,Stable,0.33,Route recalculation needed due to traffic jam ahead. Vehicle speed: 55 km/h.
+81,V2X Communication,Medium,2132,500,85,Rural,Fair,0.62,882190471,Cost-Sensitive,Peak,Stable,0.78,Vehicle-to-pedestrian alert for hazard in Rural area. Network: Fair.
+82,Safety,Medium,2824,1000,13,Highway,Fair,0.98,3491729270,Balanced,Peak,High-Mobility,0.71,Emergency braking needed at 13 km/h in highway area during peak time. Network: fair.
+83,V2X Communication,Medium,2946,50,89,Rural,Poor,0.47,2929128374,Latency-Oriented,Off-Peak,Stable,0.79,Vehicle-to-infrastructure alert for speed limit in Rural area. Network: Poor.
+84,V2X Communication,Medium,4235,800,27,Urban,Excellent,4.85,7483915409,Balanced,Off-Peak,Stable,0.52,Vehicle-to-infrastructure alert for speed limit in Urban area. Network: Excellent.
+85,Safety,Medium,825,50,86,Highway,Poor,5.85,9671140245,Latency-Oriented,Off-Peak,High-Mobility,0.44,Emergency braking needed at 86 km/h in highway area during off-peak time. Network: poor.
+86,Safety,High,1675,100,77,Urban,Fair,2.79,4379221599,Latency-Oriented,Peak,Stable,0.15,Emergency collision avoidance needed at 77 km/h in urban area during peak time. Network: fair.
+87,Safety,Low,3119,1000,87,Rural,Fair,4.04,410089820,Latency-Oriented,Off-Peak,High-Mobility,0.33,Emergency braking needed at 87 km/h in rural area during off-peak time. Network: fair.
+88,Safety,Medium,467,50,1,Rural,Excellent,1.01,4526618814,Balanced,Peak,High-Mobility,0.43,Emergency braking needed at 1 km/h in rural area during peak time. Network: excellent.
+89,Navigation,Low,164,200,108,Rural,Congested,3.43,9796674144,Latency-Oriented,Off-Peak,High-Mobility,0.09,Route recalculation needed due to traffic jam ahead. Vehicle speed: 108 km/h.
+90,Diagnostics,Low,666,500,25,Urban,Good,5.27,3829202013,Balanced,Off-Peak,High-Mobility,0.22,Predictive maintenance for brakes while vehicle moves at 25 km/h. Network condition: Good.
+91,Diagnostics,Medium,4024,100,13,Urban,Fair,7.35,3223167390,Cost-Sensitive,Peak,Stable,0.6,Predictive maintenance for brakes while vehicle moves at 13 km/h. Network condition: Fair.
+92,Safety,High,3317,1000,58,Urban,Fair,0.13,7584867516,Cost-Sensitive,Peak,High-Mobility,0.74,Emergency lane change needed at 58 km/h in urban area during peak time. Network: fair.
+93,Diagnostics,Medium,875,50,55,Urban,Congested,4.73,1585779459,Latency-Oriented,Off-Peak,High-Mobility,1.0,Predictive maintenance for battery while vehicle moves at 55 km/h. Network condition: Congested.
+94,Diagnostics,High,1566,800,114,Rural,Congested,3.04,8636889875,Balanced,Off-Peak,Stable,0.93,Predictive maintenance for engine while vehicle moves at 114 km/h. Network condition: Congested.
+95,Safety,Low,3196,200,6,Rural,Poor,8.54,8118839216,Cost-Sensitive,Off-Peak,High-Mobility,0.64,Emergency collision avoidance needed at 6 km/h in rural area during off-peak time. Network: poor.
+96,Diagnostics,High,462,200,2,Highway,Poor,7.18,1983838883,Balanced,Peak,High-Mobility,0.42,Predictive maintenance for brakes while vehicle moves at 2 km/h. Network condition: Poor.
+97,V2X Communication,High,778,50,110,Highway,Good,5.93,7509925236,Balanced,Peak,Stable,0.64,Vehicle-to-pedestrian alert for hazard in Highway area. Network: Good.
+98,Infotainment,High,3398,500,22,Urban,Good,2.84,6485194495,Latency-Oriented,Peak,Stable,0.79,Music streaming requested while vehicle is moving in urban area. User is latency-oriented.
+99,Infotainment,Low,2858,50,109,Rural,Excellent,9.11,9878900905,Cost-Sensitive,Peak,Stable,0.12,Video playback requested while vehicle is moving in rural area. User is cost-sensitive.
+100,Safety,Low,725,100,106,Rural,Poor,0.55,8313538037,Latency-Oriented,Peak,Stable,0.41,Emergency lane change needed at 106 km/h in rural area during peak time. Network: poor.
+101,Navigation,High,3515,50,110,Rural,Fair,1.18,1004787211,Latency-Oriented,Peak,Stable,0.84,Route recalculation needed due to road closure ahead. Vehicle speed: 110 km/h.
+102,Safety,High,2554,200,108,Highway,Poor,3.98,7107497767,Cost-Sensitive,Off-Peak,Stable,0.38,Emergency lane change needed at 108 km/h in highway area during off-peak time. Network: poor.
+103,Navigation,Medium,3017,1000,17,Highway,Fair,1.33,3248696462,Cost-Sensitive,Off-Peak,Stable,0.57,Route recalculation needed due to accident ahead. Vehicle speed: 17 km/h.
+104,Infotainment,High,2836,50,37,Rural,Congested,9.57,665078882,Balanced,Peak,High-Mobility,0.59,Music streaming requested while vehicle is moving in rural area. User is balanced.
+105,Safety,Medium,1172,500,98,Rural,Poor,8.0,7469412103,Cost-Sensitive,Off-Peak,Stable,0.18,Emergency lane change needed at 98 km/h in rural area during off-peak time. Network: poor.
+106,V2X Communication,High,4129,1000,114,Rural,Congested,2.66,5166700374,Balanced,Off-Peak,Stable,0.36,Vehicle-to-infrastructure alert for hazard in Rural area. Network: Congested.
+107,Diagnostics,Medium,1621,800,14,Highway,Good,5.93,5415208107,Balanced,Peak,Stable,0.33,Predictive maintenance for engine while vehicle moves at 14 km/h. Network condition: Good.
+108,Navigation,Low,2193,300,63,Rural,Good,9.83,8567077453,Balanced,Off-Peak,High-Mobility,0.03,Route recalculation needed due to road closure ahead. Vehicle speed: 63 km/h.
+109,Diagnostics,High,1737,50,88,Rural,Excellent,8.85,5172257398,Cost-Sensitive,Peak,High-Mobility,0.02,Predictive maintenance for brakes while vehicle moves at 88 km/h. Network condition: Excellent.
+110,Diagnostics,High,4182,500,118,Urban,Poor,6.05,3769556036,Latency-Oriented,Peak,Stable,0.83,Predictive maintenance for engine while vehicle moves at 118 km/h. Network condition: Poor.
+111,Safety,High,3901,1000,100,Urban,Congested,9.05,6509284588,Balanced,Off-Peak,Stable,0.27,Emergency collision avoidance needed at 100 km/h in urban area during off-peak time. Network: congested.
+112,Diagnostics,High,3490,500,27,Highway,Fair,9.89,1161849405,Latency-Oriented,Peak,Stable,0.52,Predictive maintenance for battery while vehicle moves at 27 km/h. Network condition: Fair.
+113,V2X Communication,Medium,3816,800,73,Rural,Good,7.46,8134809659,Latency-Oriented,Peak,High-Mobility,0.3,Vehicle-to-infrastructure alert for speed limit in Rural area. Network: Good.
+114,Diagnostics,High,2376,200,38,Rural,Good,0.74,2012571502,Cost-Sensitive,Peak,High-Mobility,0.94,Predictive maintenance for battery while vehicle moves at 38 km/h. Network condition: Good.
+115,Safety,Low,2964,500,56,Urban,Fair,4.08,6606090999,Latency-Oriented,Peak,Stable,0.26,Emergency braking needed at 56 km/h in urban area during peak time. Network: fair.
+116,V2X Communication,Low,4002,1000,16,Highway,Congested,8.39,9392264261,Latency-Oriented,Peak,High-Mobility,0.43,Vehicle-to-pedestrian alert for speed limit in Highway area. Network: Congested.
+117,Infotainment,High,645,500,102,Urban,Congested,2.38,1779682426,Cost-Sensitive,Peak,Stable,0.87,Music streaming requested while vehicle is moving in urban area. User is cost-sensitive.
+118,Diagnostics,Low,778,500,85,Urban,Poor,8.32,4263594232,Balanced,Peak,High-Mobility,0.84,Predictive maintenance for engine while vehicle moves at 85 km/h. Network condition: Poor.
+119,Safety,High,1415,500,89,Urban,Poor,1.29,1496680702,Latency-Oriented,Peak,High-Mobility,0.19,Emergency collision avoidance needed at 89 km/h in urban area during peak time. Network: poor.
+120,Infotainment,High,4542,100,43,Urban,Excellent,0.56,3422041767,Cost-Sensitive,Off-Peak,Stable,0.8,Video playback requested while vehicle is moving in urban area. User is cost-sensitive.
+121,Infotainment,Low,748,100,24,Rural,Good,3.9,9703763594,Latency-Oriented,Off-Peak,Stable,0.46,Social media update requested while vehicle is moving in rural area. User is latency-oriented.
+122,Navigation,High,445,200,16,Rural,Poor,0.46,4710633410,Latency-Oriented,Off-Peak,Stable,0.48,Route recalculation needed due to road closure ahead. Vehicle speed: 16 km/h.
+123,V2X Communication,Low,4221,50,12,Urban,Congested,9.58,5124071949,Balanced,Peak,Stable,0.13,Vehicle-to-pedestrian alert for hazard in Urban area. Network: Congested.
+124,Diagnostics,Medium,4410,500,83,Highway,Fair,8.28,1547417609,Latency-Oriented,Peak,High-Mobility,0.08,Predictive maintenance for engine while vehicle moves at 83 km/h. Network condition: Fair.
+125,Safety,High,2552,800,24,Highway,Congested,8.03,1950647808,Cost-Sensitive,Off-Peak,High-Mobility,0.73,Emergency lane change needed at 24 km/h in highway area during off-peak time. Network: congested.
+126,Navigation,Medium,1869,50,67,Highway,Good,6.33,1168219667,Latency-Oriented,Off-Peak,High-Mobility,0.5,Route recalculation needed due to accident ahead. Vehicle speed: 67 km/h.
+127,V2X Communication,Low,767,800,9,Highway,Congested,2.24,817439551,Balanced,Off-Peak,Stable,0.44,Vehicle-to-pedestrian alert for intersection in Highway area. Network: Congested.
+128,Navigation,Medium,2832,50,66,Urban,Excellent,5.23,5114886355,Balanced,Peak,High-Mobility,0.73,Route recalculation needed due to road closure ahead. Vehicle speed: 66 km/h.
+129,V2X Communication,Medium,4996,200,104,Rural,Good,6.01,3725684464,Cost-Sensitive,Off-Peak,Stable,0.77,Vehicle-to-infrastructure alert for hazard in Rural area. Network: Good.
+130,V2X Communication,Low,3627,500,108,Highway,Fair,5.3,5279048555,Balanced,Off-Peak,High-Mobility,0.16,Vehicle-to-vehicle alert for intersection in Highway area. Network: Fair.
+131,Diagnostics,Medium,193,500,17,Urban,Excellent,2.68,9170625724,Latency-Oriented,Peak,Stable,0.61,Predictive maintenance for battery while vehicle moves at 17 km/h. Network condition: Excellent.
+132,V2X Communication,Medium,3190,300,110,Highway,Good,5.2,4640153473,Balanced,Off-Peak,Stable,0.14,Vehicle-to-pedestrian alert for intersection in Highway area. Network: Good.
+133,Navigation,Low,4541,800,99,Highway,Fair,4.96,2381355774,Cost-Sensitive,Peak,High-Mobility,0.75,Route recalculation needed due to accident ahead. Vehicle speed: 99 km/h.
+134,V2X Communication,Medium,2988,50,110,Urban,Excellent,9.96,4122690835,Balanced,Peak,Stable,0.66,Vehicle-to-vehicle alert for intersection in Urban area. Network: Excellent.
+135,Diagnostics,Low,3686,50,85,Rural,Excellent,8.98,4563946524,Balanced,Peak,Stable,0.96,Predictive maintenance for brakes while vehicle moves at 85 km/h. Network condition: Excellent.
+136,Diagnostics,Medium,3272,100,33,Rural,Good,4.69,624458102,Balanced,Off-Peak,High-Mobility,0.07,Predictive maintenance for battery while vehicle moves at 33 km/h. Network condition: Good.
+137,Navigation,Low,1217,300,110,Urban,Poor,6.27,4110962676,Cost-Sensitive,Off-Peak,Stable,0.06,Route recalculation needed due to road closure ahead. Vehicle speed: 110 km/h.
+138,Infotainment,Low,2666,1000,7,Rural,Excellent,7.5,2278556912,Balanced,Peak,Stable,0.28,Music streaming requested while vehicle is moving in rural area. User is balanced.
+139,Infotainment,Medium,1112,1000,39,Urban,Excellent,0.45,8868488653,Balanced,Off-Peak,Stable,0.26,Social media update requested while vehicle is moving in urban area. User is balanced.
+140,V2X Communication,Medium,2206,100,112,Urban,Fair,8.96,8540120535,Latency-Oriented,Off-Peak,High-Mobility,0.25,Vehicle-to-vehicle alert for hazard in Urban area. Network: Fair.
+141,Safety,Medium,3032,100,107,Urban,Congested,8.62,8711151658,Cost-Sensitive,Off-Peak,High-Mobility,0.91,Emergency braking needed at 107 km/h in urban area during off-peak time. Network: congested.
+142,V2X Communication,High,3344,100,82,Rural,Good,4.63,8482967777,Balanced,Off-Peak,Stable,0.25,Vehicle-to-infrastructure alert for speed limit in Rural area. Network: Good.
+143,Navigation,High,4779,800,41,Urban,Good,3.97,2844999217,Cost-Sensitive,Peak,High-Mobility,0.27,Route recalculation needed due to traffic jam ahead. Vehicle speed: 41 km/h.
+144,Navigation,High,1206,800,40,Highway,Poor,2.8,3827680696,Balanced,Off-Peak,Stable,0.76,Route recalculation needed due to road closure ahead. Vehicle speed: 40 km/h.
+145,Navigation,Low,782,200,100,Rural,Poor,4.82,4994764883,Balanced,Peak,Stable,0.45,Route recalculation needed due to traffic jam ahead. Vehicle speed: 100 km/h.
+146,Navigation,Medium,4380,200,5,Rural,Good,0.54,8818670207,Balanced,Peak,Stable,0.78,Route recalculation needed due to road closure ahead. Vehicle speed: 5 km/h.
+147,Navigation,Low,4896,100,51,Rural,Poor,8.54,5717516332,Latency-Oriented,Off-Peak,Stable,0.07,Route recalculation needed due to traffic jam ahead. Vehicle speed: 51 km/h.
+148,Diagnostics,High,1003,300,25,Rural,Fair,0.45,5261921257,Latency-Oriented,Peak,Stable,0.49,Predictive maintenance for battery while vehicle moves at 25 km/h. Network condition: Fair.
+149,Infotainment,Medium,2589,50,63,Highway,Good,3.36,503300480,Latency-Oriented,Off-Peak,High-Mobility,0.03,Video playback requested while vehicle is moving in highway area. User is latency-oriented.
+150,Navigation,Low,3374,800,97,Rural,Poor,9.32,2005892703,Cost-Sensitive,Off-Peak,Stable,0.06,Route recalculation needed due to road closure ahead. Vehicle speed: 97 km/h.
+151,Safety,Medium,3351,300,58,Rural,Good,7.38,8123609860,Cost-Sensitive,Peak,High-Mobility,0.91,Emergency braking needed at 58 km/h in rural area during peak time. Network: good.
+152,Safety,Low,1592,500,55,Urban,Congested,2.89,9450787157,Latency-Oriented,Peak,High-Mobility,0.14,Emergency lane change needed at 55 km/h in urban area during peak time. Network: congested.
+153,Safety,Medium,1241,800,58,Rural,Excellent,2.6,3699677750,Cost-Sensitive,Peak,Stable,0.53,Emergency collision avoidance needed at 58 km/h in rural area during peak time. Network: excellent.
+154,Safety,High,3043,800,108,Highway,Good,0.15,6530316657,Balanced,Peak,Stable,0.41,Emergency collision avoidance needed at 108 km/h in highway area during peak time. Network: good.
+155,Diagnostics,High,2731,200,69,Highway,Excellent,6.99,7048600976,Balanced,Off-Peak,High-Mobility,0.35,Predictive maintenance for battery while vehicle moves at 69 km/h. Network condition: Excellent.
+156,Safety,Medium,1267,50,100,Highway,Poor,0.58,8126885767,Balanced,Off-Peak,High-Mobility,0.9,Emergency collision avoidance needed at 100 km/h in highway area during off-peak time. Network: poor.
+157,Navigation,Low,1590,50,32,Highway,Excellent,5.37,230511435,Latency-Oriented,Off-Peak,High-Mobility,0.02,Route recalculation needed due to road closure ahead. Vehicle speed: 32 km/h.
+158,V2X Communication,High,3286,1000,52,Rural,Good,9.63,3061494829,Cost-Sensitive,Peak,Stable,0.66,Vehicle-to-infrastructure alert for speed limit in Rural area. Network: Good.
+159,Safety,High,2436,1000,21,Rural,Congested,1.18,1026317714,Latency-Oriented,Peak,High-Mobility,0.96,Emergency lane change needed at 21 km/h in rural area during peak time. Network: congested.
+160,Diagnostics,High,3769,1000,20,Highway,Poor,8.96,6086602036,Cost-Sensitive,Peak,Stable,0.56,Predictive maintenance for brakes while vehicle moves at 20 km/h. Network condition: Poor.
+161,Diagnostics,Medium,1438,1000,69,Highway,Good,9.92,557813593,Balanced,Off-Peak,Stable,0.94,Predictive maintenance for engine while vehicle moves at 69 km/h. Network condition: Good.
+162,Safety,Medium,1906,500,69,Rural,Poor,0.71,7220391387,Latency-Oriented,Peak,Stable,0.05,Emergency lane change needed at 69 km/h in rural area during peak time. Network: poor.
+163,V2X Communication,Low,1415,500,118,Highway,Fair,8.84,8687416561,Cost-Sensitive,Off-Peak,High-Mobility,0.42,Vehicle-to-pedestrian alert for intersection in Highway area. Network: Fair.
+164,Safety,Low,549,800,111,Urban,Excellent,5.21,1847656360,Cost-Sensitive,Peak,Stable,0.26,Emergency lane change needed at 111 km/h in urban area during peak time. Network: excellent.
+165,Diagnostics,Low,1730,100,3,Highway,Fair,9.07,3839857583,Balanced,Off-Peak,Stable,0.73,Predictive maintenance for battery while vehicle moves at 3 km/h. Network condition: Fair.
+166,Infotainment,Medium,560,200,93,Highway,Good,5.76,3460320072,Latency-Oriented,Off-Peak,Stable,0.98,Video playback requested while vehicle is moving in highway area. User is latency-oriented.
+167,Navigation,Medium,4362,200,74,Urban,Congested,6.65,2535316300,Latency-Oriented,Peak,Stable,0.26,Route recalculation needed due to road closure ahead. Vehicle speed: 74 km/h.
+168,Diagnostics,Low,1374,1000,61,Urban,Poor,5.48,6130736764,Latency-Oriented,Peak,Stable,0.65,Predictive maintenance for engine while vehicle moves at 61 km/h. Network condition: Poor.
+169,Safety,Low,1205,800,61,Rural,Excellent,8.66,5799564013,Balanced,Off-Peak,High-Mobility,0.2,Emergency braking needed at 61 km/h in rural area during off-peak time. Network: excellent.
+170,Navigation,Medium,1877,300,93,Rural,Poor,7.37,7668957009,Latency-Oriented,Off-Peak,Stable,0.57,Route recalculation needed due to accident ahead. Vehicle speed: 93 km/h.
+171,Safety,Low,3191,100,94,Urban,Good,5.26,3526583528,Balanced,Peak,Stable,0.46,Emergency lane change needed at 94 km/h in urban area during peak time. Network: good.
+172,Safety,High,3536,800,23,Urban,Poor,8.69,3612571210,Balanced,Peak,High-Mobility,0.97,Emergency lane change needed at 23 km/h in urban area during peak time. Network: poor.
+173,Infotainment,Medium,1860,100,54,Rural,Excellent,2.53,616293975,Balanced,Off-Peak,Stable,0.61,Social media update requested while vehicle is moving in rural area. User is balanced.
+174,Navigation,Low,2973,100,8,Highway,Good,1.66,6733530165,Cost-Sensitive,Peak,High-Mobility,0.35,Route recalculation needed due to accident ahead. Vehicle speed: 8 km/h.
+175,Navigation,Medium,2264,100,118,Urban,Poor,1.69,8714667864,Latency-Oriented,Off-Peak,Stable,0.11,Route recalculation needed due to traffic jam ahead. Vehicle speed: 118 km/h.
+176,Infotainment,High,4236,800,2,Rural,Congested,3.41,1494085518,Latency-Oriented,Off-Peak,High-Mobility,0.15,Social media update requested while vehicle is stationary in rural area. User is latency-oriented.
+177,Diagnostics,Medium,763,1000,114,Highway,Good,2.46,1673940299,Balanced,Peak,High-Mobility,0.23,Predictive maintenance for brakes while vehicle moves at 114 km/h. Network condition: Good.
+178,Safety,Medium,3652,200,30,Urban,Good,9.31,6096516038,Balanced,Peak,Stable,0.25,Emergency collision avoidance needed at 30 km/h in urban area during peak time. Network: good.
+179,V2X Communication,Medium,4184,200,39,Highway,Congested,1.15,2027124440,Latency-Oriented,Peak,Stable,0.85,Vehicle-to-pedestrian alert for speed limit in Highway area. Network: Congested.
+180,Safety,Medium,3572,1000,100,Rural,Fair,7.02,1120244272,Balanced,Peak,Stable,0.56,Emergency collision avoidance needed at 100 km/h in rural area during peak time. Network: fair.
+181,Safety,High,4318,100,35,Urban,Excellent,1.97,9666050219,Latency-Oriented,Peak,High-Mobility,0.52,Emergency braking needed at 35 km/h in urban area during peak time. Network: excellent.
+182,Diagnostics,Medium,4798,300,23,Highway,Fair,8.83,4709341401,Cost-Sensitive,Off-Peak,High-Mobility,0.11,Predictive maintenance for engine while vehicle moves at 23 km/h. Network condition: Fair.
+183,Safety,Medium,4899,50,94,Urban,Poor,9.62,7055658057,Balanced,Off-Peak,High-Mobility,0.86,Emergency collision avoidance needed at 94 km/h in urban area during off-peak time. Network: poor.
+184,Infotainment,Low,1293,800,5,Highway,Congested,4.71,6385659053,Latency-Oriented,Peak,Stable,0.72,Video playback requested while vehicle is stationary in highway area. User is latency-oriented.
+185,Infotainment,Medium,3759,50,65,Rural,Fair,8.8,1731167490,Balanced,Peak,High-Mobility,0.07,Social media update requested while vehicle is moving in rural area. User is balanced.
+186,Navigation,Low,1131,1000,83,Rural,Good,0.15,3807989785,Latency-Oriented,Peak,High-Mobility,0.71,Route recalculation needed due to traffic jam ahead. Vehicle speed: 83 km/h.
+187,V2X Communication,High,505,300,91,Urban,Poor,8.22,6453037765,Latency-Oriented,Off-Peak,Stable,0.54,Vehicle-to-pedestrian alert for intersection in Urban area. Network: Poor.
+188,Safety,High,4974,800,74,Highway,Poor,2.36,1565648281,Balanced,Peak,High-Mobility,0.08,Emergency braking needed at 74 km/h in highway area during peak time. Network: poor.
+189,Safety,High,944,1000,3,Urban,Fair,9.1,1732927755,Cost-Sensitive,Peak,High-Mobility,0.46,Emergency collision avoidance needed at 3 km/h in urban area during peak time. Network: fair.
+190,Diagnostics,High,1434,100,78,Urban,Fair,0.11,1812930785,Latency-Oriented,Off-Peak,Stable,0.48,Predictive maintenance for battery while vehicle moves at 78 km/h. Network condition: Fair.
+191,Infotainment,Low,2008,200,5,Highway,Congested,5.61,7479282417,Latency-Oriented,Off-Peak,High-Mobility,0.17,Video playback requested while vehicle is stationary in highway area. User is latency-oriented.
+192,V2X Communication,Medium,3122,50,117,Highway,Excellent,7.59,8768242924,Latency-Oriented,Peak,Stable,0.95,Vehicle-to-infrastructure alert for hazard in Highway area. Network: Excellent.
+193,Navigation,High,2046,500,112,Highway,Fair,2.66,940860054,Cost-Sensitive,Peak,Stable,0.85,Route recalculation needed due to traffic jam ahead. Vehicle speed: 112 km/h.
+194,Infotainment,Medium,4335,500,93,Rural,Fair,2.01,8722416886,Cost-Sensitive,Peak,Stable,0.67,Music streaming requested while vehicle is moving in rural area. User is cost-sensitive.
+195,Navigation,Low,554,300,119,Urban,Good,0.93,3957011835,Balanced,Off-Peak,Stable,0.46,Route recalculation needed due to accident ahead. Vehicle speed: 119 km/h.
+196,Diagnostics,Low,1264,100,101,Urban,Poor,3.33,9735683096,Cost-Sensitive,Peak,Stable,0.41,Predictive maintenance for engine while vehicle moves at 101 km/h. Network condition: Poor.
+197,Diagnostics,Low,1581,50,50,Rural,Excellent,5.64,8948781070,Balanced,Peak,High-Mobility,0.65,Predictive maintenance for engine while vehicle moves at 50 km/h. Network condition: Excellent.
+198,Safety,High,3490,100,61,Highway,Good,1.25,1610207957,Balanced,Peak,High-Mobility,0.55,Emergency braking needed at 61 km/h in highway area during peak time. Network: good.
+199,V2X Communication,Medium,873,50,56,Rural,Congested,3.83,9125533729,Cost-Sensitive,Off-Peak,Stable,0.06,Vehicle-to-infrastructure alert for intersection in Rural area. Network: Congested.
+200,Navigation,Medium,978,300,65,Rural,Congested,0.19,6481770620,Balanced,Off-Peak,Stable,0.51,Route recalculation needed due to traffic jam ahead. Vehicle speed: 65 km/h.
